@@ -12,16 +12,3 @@ async function loadPage(page) {
   // your code goes here
   element.innerHTML = content;
 };
-
-/*
-async function loadPage(){
-  console.log(location.hash);
-  let page      = location.hash.replace('#', '');
-  const res     = await fetch(page);
-  const content = await res.text();
-  const element = document.getElementById('content');
-  element.innerHTML = content;
-};            
-
-window.addEventListener('hashchange', loadPage);
-*/
